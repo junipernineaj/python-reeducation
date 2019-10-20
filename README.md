@@ -44,3 +44,7 @@ print (favorite_language.lstrip())
 print (favorite_language.strip())
 ```
 
+### Apostrophes
+
+Inside Double quotes or delimited with a backslash
+
