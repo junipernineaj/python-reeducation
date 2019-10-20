@@ -28,6 +28,19 @@ The f"{a}{b}" is for format, because Python formats the string by replacing the 
 
 See full_name.py
 
+### Tabs and Newlines
+
+```
+/t
+/n
+```
 ### Adding Whitespace to Strings with Tabs or Newlines
 
+Strip from the right, left and both:
+
+```
+print (favorite_language.rstrip())
+print (favorite_language.lstrip())
+print (favorite_language.strip())
+```
 
