@@ -81,3 +81,13 @@ Python doesn't care - 100_000_000 is still 100000000
 ###Multiple Assignment
 
 You can assign to x,y and z in one go with x, y, z = 1, 2, 3
+
+##Comments
+
+A # on a line will start a comment
+Anywhere on the line - after the # will be ignored my Python
+
+```
+# A comment
+x = 10    # I've just defined x as 10
+```
