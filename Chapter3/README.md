@@ -91,7 +91,6 @@ The pop() method removes the last item in a list, but it lets you work with that
 
 ```python
 motorcycles = ['honda', 'yamaha', 'suzuki']
-print(motorcycles)
 popped_motorcycle = motorcycles.pop()
 print(motorcycles)
 print(popped_motorcycle)
@@ -102,4 +101,13 @@ With no arguments to pop it will take the last value in the list.
 You can provide an index position in pop  - ie. pop(0) - or pop(-1)
 
 ###Removing an item by value, not position
+
+If you only know the value of the item you want to remove, you can use the remove() method.
+
+```python
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+motorcycles.remove('ducati')
+```
+
+The remove() method deletes only the first occurrence of the value you specify. If there are more use a loop.
 

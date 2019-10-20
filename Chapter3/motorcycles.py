@@ -76,3 +76,18 @@ print(f"The last motorcycle I owned was a {last_owned.title()}.")
 motorcycles = ['honda', 'yamaha', 'suzuki']
 last_owned = motorcycles.pop(-1)
 print(f"The last motorcycle I owned was a {last_owned.title()}.")
+
+#Deleting an element by name
+
+print ("\nRemoving an element from a list by name")
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+motorcycles.remove('ducati')
+print(motorcycles)
+
+print ("\nUsing the element from the remove method")
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+too_expensive = 'ducati'
+motorcycles.remove(too_expensive)
+print(motorcycles)
+print(f"\nA {too_expensive.title()} is too expensive for me.")
