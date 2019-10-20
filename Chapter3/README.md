@@ -85,7 +85,7 @@ del motorcycles[0]
 
 Once it is removed it is gone
 
-###Using the value of a removed item 
+### Using the value of a removed item 
 
 The pop() method removes the last item in a list, but it lets you work with that item after removing it.
 
@@ -100,7 +100,7 @@ With no arguments to pop it will take the last value in the list.
 
 You can provide an index position in pop  - ie. pop(0) - or pop(-1)
 
-###Removing an item by value, not position
+### Removing an item by value, not position
 
 If you only know the value of the item you want to remove, you can use the remove() method.
 
@@ -111,7 +111,7 @@ motorcycles.remove('ducati')
 
 The remove() method deletes only the first occurrence of the value you specify. If there are more use a loop.
 
-###Organizing a List
+### Organizing a List
 
 The sort() method changes the order of a list permanently.
 
@@ -133,7 +133,7 @@ cars = ['bmw', 'audi', 'toyota', 'subaru']
 cars.sort(reverse=True)
 ```
 
-###Sorting a List Temporarily with the sorted() function
+### Sorting a List Temporarily with the sorted() function
 
 To maintain the original order of a list but present it in a sorted order, you can use the sorted() function.
 
@@ -148,7 +148,13 @@ print("\nHere is the original list again:")
 print(cars)
 ```
 
-###Printing a List in Reverse Order
+You can also reverse the sorted list:
+
+```python
+print(sorted(cars, reverse=True))
+```
+
+### Printing a List in Reverse Order
 
 To reverse the original order of a list, you can use the reverse() method.
 
@@ -165,4 +171,14 @@ cars.reverse()
 ```python
 ['bmw', 'audi', 'toyota', 'subaru']
 ['subaru', 'toyota', 'audi', 'bmw']
+```
+
+### Finding the length of a list
+
+Find the length of a list by using the len() function.
+
+```python
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+print (len(cars))
 ```
