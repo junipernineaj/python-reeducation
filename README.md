@@ -2,7 +2,7 @@
 
 Reminding myself of all the Python
 
-## 2. Variables and simple data types
+## 2a. Variables and simple data types
 
 ### title method
 
@@ -47,4 +47,22 @@ print (favorite_language.strip())
 ### Apostrophes
 
 Inside Double quotes or delimited with a backslash
+
+## 2b. Numbers
+
+### Operators 
+
+Addition, Subtraction, Multiplication and Division as expected.
+
+Exponents (to the power of - double star ** )
+
+Also supports the order of operations
+
+Also supports the order of operations - BODMAS - brackets, operators, division, multiplication, addition, subtractio
+
+Spacing has no effect.
+
+### Floats
+
+Any number with a decimal point is a float
 

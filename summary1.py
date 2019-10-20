@@ -61,6 +61,6 @@ print (new_name.strip())
 ## Strip doesnt remove tabs or newlines
 
 print (another_name)
-print (another_name.rstrip())
+rint (another_name.rstrip())
 print (another_name.lstrip())
 print (another_name.strip())
