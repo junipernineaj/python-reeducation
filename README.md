@@ -66,3 +66,18 @@ Spacing has no effect.
 
 Any number with a decimal point is a float
 
+Normal maths works but sometimes you get random numbers of decimal places after the point
+
+### Integers and Floats
+
+When you divide any two integers you will always get a float.
+
+Mixing integers and floats will also always give a float.
+
+###Underscores in numbers
+
+Python doesn't care - 100_000_000 is still 100000000
+
+###Multiple Assignment
+
+You can assign to x,y and z in one go with x, y, z = 1, 2, 3
