@@ -33,10 +33,54 @@ Second last item in a list is [-2]
 print (bicycles[-2]
 ```
 
-###Using Individual Values from a List
+###Using individual values from a list
 
 Such as:
 
 ```
 f"My first bicycle was a {bicycles[0].title()}."
 ```
+
+###Changing elements of a list
+
+####Modifying
+
+update position 0 with a different motorcycle
+
+```
+motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles[0] = 'ducati'
+```
+
+###Appending
+
+```
+motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles.append('ducati')
+```
+
+####Start with an empty list and build it up
+
+```
+motorcycles = []
+
+motorcycles.append('honda')
+motorcycles.append('yamaha')
+motorcycles.append('suzuki')
+```
+
+###Inserting elements into a list
+
+```
+motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles.insert(0, 'ducati')
+```
+
+###Removing elements from a list
+
+```
+motorcycles = ['honda', 'yamaha', 'suzuki']
+del motorcycles[0]
+```
+
+Once it is removed it is gone
