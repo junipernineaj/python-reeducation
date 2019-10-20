@@ -45,3 +45,34 @@ motorcycles = ['ducati','honda', 'yamaha', 'suzuki']
 print(motorcycles)
 del motorcycles[0]
 print(motorcycles)
+
+#Using the value of a removed item with pop()
+
+#With no args pop takes the last value in a list
+print ("\nRemoving elements from a list and using it - with pop - no args")
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
+
+#With a number argument pop takes the positional index value in the list
+print ("\nRemoving elements from a list and using it - with pop - positionally")
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+popped_motorcycle = motorcycles.pop(0)
+print(motorcycles)
+print(popped_motorcycle)
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+first_owned = motorcycles.pop(0)
+print(f"The first motorcycle I owned was a {first_owned.title()}.")
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+last_owned = motorcycles.pop()
+print(f"The last motorcycle I owned was a {last_owned.title()}.")
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+last_owned = motorcycles.pop(-1)
+print(f"The last motorcycle I owned was a {last_owned.title()}.")
