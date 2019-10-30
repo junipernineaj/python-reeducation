@@ -19,7 +19,7 @@ It is good practice to report you are at the end of the list - perhaps with a pr
 
 Because the last line isn't indented it is outside the loop and run after the loop is finished.
 
-####Indentation issues
+###Indentation issues
 
 Always indent the line after the for statement in a loop.
 
@@ -36,3 +36,29 @@ File "magicians.py", line 3
 IndentationError: expected an indented block
 ```
 
+###Making Numerical Lists
+
+####Ranges of numbers
+
+```python
+for value in range(1, 5):
+    print(value)
+```
+
+Note the 'off by one' behaviour - ie. 5 not being printed
+
+That is the loop stops when it reaches the last value you provide.
+
+```python
+for value in range(5):
+    print(value)
+```
+
+providing one value will start the count from 0
+
+####Using range to make a list
+
+```python
+numbers = list(range(1, 6))
+print(numbers)
+```

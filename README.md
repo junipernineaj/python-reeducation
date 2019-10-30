@@ -15,3 +15,5 @@ Reminding myself of all the Python
 ## Chapter 4
 
 - a. Looping on Lists
+- b. Numbers and ranges of numbers
+- c. Ranges into lists
