@@ -32,3 +32,18 @@ print(squares)
 # Simple Statistics with a List of Numbers
 
 
+digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+print(min(digits))
+print(max(digits))
+print(sum(digits))
+
+digits = range(0, 10)
+print(min(digits))
+print(max(digits))
+print(sum(digits))
+
+
+# List Comprehension
+print("\nList comprehension\n")
+squares = [value**2 for value in range(1, 11)]
+print(squares)

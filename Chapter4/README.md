@@ -62,3 +62,29 @@ providing one value will start the count from 0
 numbers = list(range(1, 6))
 print(numbers)
 ```
+
+####Simple statistics with sum, min and max
+
+```python
+digits = range(0, 10)
+print(min(digits))
+print(max(digits))
+print(sum(digits))
+```
+
+####List Comprehensions
+
+To use this syntax, begin with a descriptive name for the list, such as squares. 
+
+Next, open a set of square brackets and define the expression for the values you want to store in the new list. In this example the expression is value**2, which raises the value to the second power. 
+
+Then, write a for loop to generate the numbers you want to feed into the expression, and close the square brackets. 
+
+The for loop in this example is for value in range(1, 11), which feeds the values 1 through 10 into the expression value**2. 
+
+Notice that no colon is used at the end of the for statement.
+
+```python
+squares = [value**2 for value in range(1, 11)]
+print(squares)
+```
