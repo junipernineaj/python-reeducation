@@ -46,5 +46,7 @@ print(cubes)
 
 #Cube Comprehension: Use a list comprehension to generate a list of the first 10 cubes.
 
-print("Cube Comprehension: Use a list comprehension to generate a list of the first 10 cubes.")
+print("\nCube Comprehension: Use a list comprehension to generate a list of the first 10 cubes.\n")
 
+new_cubes = [value**3 for value in range(1, 11)]
+print(new_cubes)
