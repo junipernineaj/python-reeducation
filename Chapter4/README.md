@@ -123,3 +123,22 @@ new_list = my_foods
 You essentially make new_list identical to my_foods so any update to either
 will actually update both.
 
+###Tuples
+
+Python refers to values that cannot change as immutable, and an immutable list is called a tuple.
+
+A tuple looks just like a list except you use parentheses instead of square brackets. 
+
+Once you define a tuple, you can access individual elements by using each item’s index, just as you would for a list.
+
+```python
+dimensions = (200, 50)
+print(dimensions[0])
+print(dimensions[1])
+```
+
+Tuples are technically defined by the presence of a comma; the parentheses make them look neater and more readable. If you want to define a tuple with one element, you need to include a trailing comma:
+
+```python
+my_t = (3,)
+```
